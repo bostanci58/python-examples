@@ -11,3 +11,6 @@ print(qr.terminal(quiet_zone=1))
 
 # Saving QR code to file
 qr.svg("qr.svg", scale=8)
+
+#For this code to work, we need to install the libraries.
+#    Open the terminal ===>>>     pip3 install pyqrcode
